@@ -20,14 +20,12 @@ express()
 
 ## API
 
-### .redirect(path, options)
+### redirect(path, options)
   
   Generate a route function that redirects to `path`. The (optional) `options` default to:
 
 ```js
-{
-   status: 301
-}
+{ status: 301 }
 ```
 
 ## License
